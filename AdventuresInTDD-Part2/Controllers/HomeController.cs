@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using AdventuresInTDD_Part2.Models;
 
 namespace AdventuresInTDD_Part2.Controllers
 {
@@ -12,19 +9,33 @@ namespace AdventuresInTDD_Part2.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        
+        public ViewResult Conversion()
         {
-            ViewBag.Message = "Your application description page.";
+            ConversionModel model = null;
 
-            return View();
+            return View(model);
         }
 
-        public ActionResult Contact()
+        public ViewResult ConversionResult(ConversionModel model)
         {
-            ViewBag.Message = "Your contact page.";
+            ConversionResultModel resultModel = null;
 
-            return View();
+            return View(resultModel);
+        }
+
+        public ViewResult Sequence()
+        {
+            SequenceModel model = null;
+
+            return View(model);
+        }
+
+        public ViewResult SequenceResults(SequenceModel model)
+        {
+            SequenceResultModel resultModel = null;
+
+            return View(resultModel);
         }
     }
 }
