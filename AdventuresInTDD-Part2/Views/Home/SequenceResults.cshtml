@@ -5,4 +5,12 @@
 }
 
 <h2>SequenceResults</h2>
+<label>Result</label>
+<br />
+@foreach (string value in Model.Sequence)
+{
+    <p>@value</p>
+}
+
+@Html.Partial("Navigation")
 

@@ -2,6 +2,6 @@
 {
     public class SequenceResultModel
     {
-        public string InputValue { get; set; }
+        public string[] Sequence { get; set; }
     }
 }

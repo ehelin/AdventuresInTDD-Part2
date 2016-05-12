@@ -6,3 +6,30 @@
 
 <h2>Sequence</h2>
 
+@using (Html.BeginForm("SequenceResults", "Home"))
+{
+    <label>Sort Ascending?</label>
+    @Html.CheckBoxFor(x => x.SortAscending);
+    <br />
+
+    <label>Sort Descending?</label>
+    @Html.CheckBoxFor(x => x.SortDescending);
+    <br />
+
+    <label>Sequence Data Type</label>
+    @Html.DropDownListFor(x => x.SelectedSequenceDataType,
+                              new SelectList(Model.SequenceDataTypes))
+    <br />
+
+    <label>Value</label>
+    @Html.EditorFor(x => x.InputValue);
+    <br />
+
+    <label>Increment Options</label>
+    @Html.DropDownListFor(x => x.SelectedSequenceIncrement,
+                              new SelectList(Model.SequenceIncrementOptions))
+    <br />
+    <input type="submit" value="Convert" />
+}
+
+@Html.Partial("Navigation")

@@ -20,6 +20,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{FD5AC385-1A9C-48E8-A40E-817A3463BF8F}"
 	ProjectSection(SolutionItems) = preProject
 		libraries\System.Web.Mvc.dll = libraries\System.Web.Mvc.dll
+		libraries\System.Web.Razor.dll = libraries\System.Web.Razor.dll
+		libraries\System.Web.WebPages.Deployment.dll = libraries\System.Web.WebPages.Deployment.dll
+		libraries\System.Web.WebPages.dll = libraries\System.Web.WebPages.dll
+		libraries\System.Web.WebPages.Razor.dll = libraries\System.Web.WebPages.Razor.dll
 	EndProjectSection
 EndProject
 Global

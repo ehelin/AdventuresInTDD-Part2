@@ -8,12 +8,16 @@ namespace Sort
     {
         public string[] SortAscending(string[] values, Enumeration.SupportedDataTypes type)
         {
-            throw new NotImplementedException();
+            string[] result = new string[] { values[0], "Sorted Ascending" };
+
+            return result;
         }
 
         public string[] SortDescending(string[] values, Enumeration.SupportedDataTypes type)
         {
-            throw new NotImplementedException();
+            string[] result = new string[] { values[0], "Sorted Descending" };
+
+            return result;
         }
     }
 }

@@ -181,6 +181,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\ConversionHelper.cs" />
     <Compile Include="Models\SequenceResultModel.cs" />
     <Compile Include="Models\SequenceModel.cs" />
     <Compile Include="Models\ConversionResultModel.cs" />
@@ -222,6 +223,7 @@
     <Content Include="Views\Home\ConversionResult.cshtml" />
     <Content Include="Views\Home\Sequence.cshtml" />
     <Content Include="Views\Home\SequenceResults.cshtml" />
+    <Content Include="Views\Shared\Navigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -230,6 +232,24 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Conversion\Conversion.csproj">
+      <Project>{3e13026d-860c-417d-813e-bd46445897eb}</Project>
+      <Name>Conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequence\Sequence.csproj">
+      <Project>{1213160a-2bea-471f-be06-df4ba6cb4cab}</Project>
+      <Name>Sequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <Project>{3615239a-bfd5-4fe1-b6a1-67e0b3a408d7}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sort\Sort.csproj">
+      <Project>{5538aa69-7e60-4b4e-beff-276780e98d55}</Project>
+      <Name>Sort</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

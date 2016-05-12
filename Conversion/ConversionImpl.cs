@@ -7,62 +7,86 @@ namespace Conversion
     {
         public string ConvertBinaryToDecimal(string binaryValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-BinaryToDecimal";
+
+            return value;
         }
 
         public string ConvertBinaryToHexadecimal(string binaryValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-BinaryToHexadecimal";
+
+            return value;
         }
 
         public string ConvertBinaryToOctal(string binaryValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-BinaryToOctal";
+
+            return value;
         }
 
         public string ConvertDecimalToBinary(string decimalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-DecimalToBinary";
+
+            return value;
         }
 
         public string ConvertDecimalToHexadecimal(string decimalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-DecimalToHexadecimal";
+
+            return value;
         }
 
         public string ConvertDecimalToOctal(string decimalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-DecimalToOctal";
+
+            return value;
         }
 
         public string ConvertHexadecimalToBinary(string hexadecimalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-HexadecimalToBinary";
+
+            return value;
         }
 
         public string ConvertHexadecimalToDecimal(string hexadecimalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-HexadecimalToDecimal";
+
+            return value;
         }
 
         public string ConvertHexadecimalToOctal(string hexadecimalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-HexadecimalToOctal";
+
+            return value;
         }
 
         public string ConvertOctalToBinary(string octalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-OctalToBinary";
+
+            return value;
         }
 
         public string ConvertOctalToDecimal(string octalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-OctalToDecimal";
+
+            return value;
         }
 
         public string ConvertOctalToHexadecimal(string octalValue)
         {
-            throw new NotImplementedException();
+            string value = "Implement-OctalToHexadecimal";
+
+            return value;
         }
     }
 }

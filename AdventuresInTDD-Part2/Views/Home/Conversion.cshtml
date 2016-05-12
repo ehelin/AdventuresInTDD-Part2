@@ -6,3 +6,22 @@
 
 <h2>Conversion</h2>
 
+@using (Html.BeginForm("ConversionResult", "Home"))
+{
+    <label>From</label>
+    @Html.DropDownListFor(x => x.SelectedConversionOptionFrom,
+                              new SelectList(Model.ConversionOptionsFrom))
+    <br/>
+
+    <label>Value</label>
+    @Html.EditorFor(x => x.InputValue);
+    <br />
+
+    <label>To</label>
+    @Html.DropDownListFor(x => x.SelectedConversionOptionTo, 
+                              new SelectList(Model.ConversionOptionsTo))
+    <br />
+    <input type="submit" value="Convert"/>
+}
+
+@Html.Partial("Navigation")

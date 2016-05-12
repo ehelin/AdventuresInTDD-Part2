@@ -1,14 +1,15 @@
-﻿using System;
-using Shared;
+﻿using Shared;
 using Shared.interfaces;
 
 namespace Sequence
 {
-    public class SequenceImpl : ICreateSequence
+    public class SequenceImpl : ISequence
     {
-        public string[] CreateSequence(string startingValue, Enumeration.SupportedDataTypes type)
+        public string[] CreateSequence(string startingValue, Enumeration.SupportedDataTypes type, Enumeration.SupportedIncrements incrementType)
         {
-            throw new NotImplementedException();
+            string[] result = new string[] { "Implement Create Sequence" };
+
+            return result;
         }
     }
 }

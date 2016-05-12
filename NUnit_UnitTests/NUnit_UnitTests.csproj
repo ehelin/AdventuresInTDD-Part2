@@ -67,6 +67,7 @@
     <Compile Include="ICreateSequence_Tests.cs" />
     <Compile Include="ISort_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
