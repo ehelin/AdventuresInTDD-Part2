@@ -11,6 +11,7 @@ namespace AdventuresInTDD_Part2.Controllers
 {
     public class HomeController : Controller
     {
+        //tODO - add autofac and moq to tdd project
         private Utilities utils;
         private IConversionHelper conversionHelper;
         private ISort sort;
