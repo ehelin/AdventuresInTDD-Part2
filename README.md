@@ -1,4 +1,4 @@
-# Adventures with Test Driven Design (TDD) Part 2
+# Adventures with Test Driven Development (TDD) Part 2
 An expanded C# .NET Framework application demonstrating Test Driven Development (TDD).
 
 This project expands on efforts to demonstrate TDD using MSTest, XUnit and other technologies.
